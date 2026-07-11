@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Fallswarm Sdk · SDK · MIT</title>
+<meta name="description" content="fallswarm sdk · @ai-native-solutions"/>
+<link rel="canonical" href="https://sjgant80-hub.github.io/fallswarm-sdk/"/>
+<meta property="og:title" content="Fallswarm Sdk"/>
+<meta property="og:description" content="fallswarm sdk · @ai-native-solutions"/>
+<meta property="og:type" content="website"/>
+<meta name="theme-color" content="#0b0a0f"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+:root { --void:#0b0a0f; --shard:#141218; --shard2:#191720; --dim:#3d3a45; --muted:#8a857a; --text:#c4bfb2; --gold:#d4a017; --brass:#b8974a; --border:rgba(212,160,23,0.14); }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--void); color: var(--text); font-family: 'DM Sans', system-ui, sans-serif; min-height: 100vh; }
+body { background: radial-gradient(ellipse at 30% 12%, rgba(212,160,23,0.06), transparent 55%), var(--void); padding: 40px 24px 80px; }
+.wrap { max-width: 880px; margin: 0 auto; }
+a { color: var(--brass); text-decoration: none; }
+a:hover { color: var(--gold); }
+button { background: none; border: none; color: inherit; font: inherit; cursor: pointer; }
+.eyebrow { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.22em; color: var(--gold); text-transform: uppercase; margin-bottom: 14px; }
+h1 { font-family: 'Libre Baskerville', serif; font-size: 44px; line-height: 1.1; color: var(--text); margin-bottom: 12px; letter-spacing: -0.015em; }
+h1 em { color: var(--gold); font-style: italic; }
+.lede { color: var(--muted); font-size: 17px; line-height: 1.6; max-width: 640px; margin: 12px 0 28px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; margin: 30px 0; }
+.stat { background: var(--shard); border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; }
+.stat b { display: block; font-family: 'DM Mono', monospace; font-size: 18px; color: var(--gold); font-weight: 700; margin-bottom: 4px; }
+.stat span { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+.section { margin: 32px 0; }
+.section h2 { font-family: 'Libre Baskerville', serif; font-size: 22px; color: var(--gold); margin-bottom: 12px; }
+.section p { color: var(--muted); line-height: 1.6; margin-bottom: 10px; }
+ul { color: var(--muted); line-height: 1.65; padding-left: 22px; }
+li { margin-bottom: 5px; }
+code { font-family: 'DM Mono', monospace; font-size: 12px; background: var(--shard); border: 1px solid var(--border); padding: 3px 7px; border-radius: 3px; color: var(--brass); }
+pre { background: var(--shard); border: 1px solid var(--border); border-radius: 5px; padding: 12px 16px; overflow-x: auto; font-family: 'DM Mono', monospace; font-size: 12px; color: var(--text); margin: 10px 0; }
+.cta { display: inline-block; padding: 12px 22px; background: var(--gold); color: var(--void); border-radius: 4px; font-family: 'DM Mono', monospace; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 700; margin-right: 8px; margin-top: 6px; }
+.cta:hover { background: var(--brass); color: var(--void); }
+.cta.secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
+.cta.secondary:hover { border-color: var(--gold); color: var(--gold); }
+.footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid var(--border); font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: var(--dim); text-transform: uppercase; text-align: center; }
+.footer a { color: var(--brass); }
+
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">◊ AI-Native Solutions · sovereign · signed · MIT</div>
+  <h1>Fallswarm Sdk.<br><em>SDK.</em></h1>
+  <p class="lede">fallswarm sdk · @ai-native-solutions</p>
+
+  <div class="stats">
+    <div class="stat"><b>MIT</b><span>License</span></div>
+    <div class="stat"><b>Sovereign</b><span>No lock-in</span></div>
+    <div class="stat"><b>Signed</b><span>Ed25519</span></div>
+    <div class="stat"><b>Forkable</b><span>Fork it live</span></div>
+  </div>
+
+  <div class="section">
+    <h2>Install</h2>
+    <p>The canonical install path is the source repo · fork-and-configure · MIT.</p>
+    <pre>git clone https://github.com/sjgant80-hub/fallswarm-sdk.git
+cd fallswarm-sdk</pre>
+    <a class="cta" href="https://github.com/sjgant80-hub/fallswarm-sdk">◊ View source</a>
+    <a class="cta secondary" href="https://github.com/sjgant80-hub/fallswarm-sdk/fork">◈ Fork it</a>
+  </div>
+
+  
+
+  <div class="section">
+    <h2>For AI agents</h2>
+    <p>Machine-readable descriptors are published at these URLs:</p>
+    <ul>
+      <li><code>llms.txt</code> · <a href="llms.txt">LLM index</a></li>
+      <li><code>catalog.md</code> · <a href="catalog.md">catalog entry</a></li>
+      <li><code>glossary.md</code> · <a href="glossary.md">term dictionary</a></li>
+      <li><code>faq.md</code> · <a href="faq.md">questions and answers</a></li>
+      <li><code>sitemap.xml</code> · <a href="sitemap.xml">URL map</a></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>About the estate</h2>
+    <p>Fallswarm Sdk is one of 1500+ sovereign tools in the AI-Native Solutions estate. Every tool is MIT-signed, browser-native where possible, Ed25519-verifiable, and forkable end-to-end.</p>
+    <ul>
+      <li><a href="https://ai-nativesolutions.com">ai-nativesolutions.com</a> · estate front door</li>
+      <li><a href="https://sjgant80-hub.github.io/fallmarket/">FallMarket</a> · sovereign agent marketplace</li>
+      <li><a href="https://sjgant80-hub.github.io/fallkard/">FallKard</a> · the sovereign card game where every tool is a card</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    ◊ AI-Native Solutions · <a href="https://github.com/sjgant80-hub/fallswarm-sdk">github.com/sjgant80-hub/fallswarm-sdk</a> · <a href="https://ai-nativesolutions.com">estate</a>
+  </div>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Fallswarm Sdk",
+  "description": "fallswarm sdk · @ai-native-solutions",
+  "url": "https://sjgant80-hub.github.io/fallswarm-sdk/",
+  "operatingSystem": "any",
+  "license": "https://spdx.org/licenses/MIT.html",
+  "applicationCategory": "DeveloperApplication",
+  "codeRepository": "https://github.com/sjgant80-hub/fallswarm-sdk",
+  "publisher": { "@type": "Organization", "name": "AI-Native Solutions · House of the Fall", "url": "https://ai-nativesolutions.com" }
+}
+</script>
+</body>
+</html>
