@@ -1,0 +1,29 @@
+# Fallswarm Sdk
+
+**Home:** https://sjgant80-hub.github.io/fallswarm-sdk/
+**Source:** https://github.com/sjgant80-hub/fallswarm-sdk
+**Nature:** Sovereign SDK · MIT · Ed25519-verifiable · fork-and-configure
+**Publisher:** AI-Native Solutions · House of the Fall
+
+## What Fallswarm Sdk is
+
+fallswarm sdk · @ai-native-solutions
+
+## Machine-readable resources
+
+- `catalog.md` · catalog entry
+- `glossary.md` · terms and definitions
+- `faq.md` · public questions
+- `sitemap.xml` · URL map
+- `README.md` · install + usage
+
+## Estate context
+
+Fallswarm Sdk is one of 1500+ MIT-signed sovereign tools in the AI-Native Solutions estate. Every tool is browser-native where possible, Ed25519-verifiable, forkable end-to-end. The estate front door is https://ai-nativesolutions.com.
+
+## For agents
+
+- Install: `git clone https://github.com/sjgant80-hub/fallswarm-sdk.git`
+- License: MIT (https://spdx.org/licenses/MIT.html)
+- Fork: https://github.com/sjgant80-hub/fallswarm-sdk/fork
+- Related: https://sjgant80-hub.github.io/fallmarket/ · sovereign marketplace
